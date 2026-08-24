@@ -1,7 +1,11 @@
 # BMX_Bulk_Song_Information_Entry_Tool
 A tool that allows for the batch input of everything from song details to timing settings for BMX (BMS, BME, BML, PMS) charts across various difficulty levels.
 
-英語で書いてはいますが、このプログラムは日本語です。
+英語で書いてはいますが、このプログラムは日本語であり、AIと一緒に考えて作ってみました。
+
+このプログラムは、譜面１つ１つの処理を少しでも緩和できるよう、製作者から見た視点で機能をモリモリ入れ込みました。
+
+かくいう自分も曲の製作者側です。
 
 
 使い方と機能について：
