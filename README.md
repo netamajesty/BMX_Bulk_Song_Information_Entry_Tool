@@ -2,6 +2,8 @@
 A tool that allows for the batch input of everything from song details to timing settings for BMX (BMS, BME, BML, PMS) charts across various difficulty levels.
 
 英語で書いてはいますが、このプログラムは日本語です。
+
+
 使い方と機能について：
 1. 下のレベル別譜面選択で適当に選んでもらうと、同じフォルダにあるBMSファイルが「各レベルの単語」を判断して自動で読み込んでくれます。
 2. 上の空白にジャンル名、曲名、アーティスト名を入力する。
