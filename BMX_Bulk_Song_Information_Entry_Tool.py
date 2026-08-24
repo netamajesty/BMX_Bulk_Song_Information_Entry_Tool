@@ -445,11 +445,22 @@ class BMXBulkTool:
 
             # 画面の各メイン入力欄が空欄の場合に、吸い出した文字を自動セット
             if final_genre and not self.ent_genre.get():
-                self.ent_genre.insert(0, final_genre)
+                # リストの最初の要素を純粋な文字列として取り出し、波カッコも消去
+                genre_str = final_genre[0] if isinstance(final_genre, list) else final_genre
+                clean_genre = str(genre_str).replace("{", "").replace("}", "")
+                self.ent_genre.insert(0, clean_genre)
+
             if final_title and not self.ent_title.get():
-                self.ent_title.insert(0, final_title)
+                # リストの最初の要素を純粋な文字列として取り出し、波カッコも消去
+                title_str = final_title[0] if isinstance(final_title, list) else final_title
+                clean_title = str(title_str).replace("{", "").replace("}", "")
+                self.ent_title.insert(0, clean_title)
+
             if final_artist and not self.ent_artist.get():
-                self.ent_artist.insert(0, final_artist)
+                # リストの最初の要素を純粋な文字列として取り出し、波カッコも消去
+                artist_str = final_artist[0] if isinstance(final_artist, list) else final_artist
+                clean_artist = str(artist_str).replace("{", "").replace("}", "")
+                self.ent_artist.insert(0, clean_artist)
 
         messagebox.showinfo(
             "自動仕分け完了",
