@@ -7,6 +7,9 @@ A tool that allows for the batch input of everything from song details to timing
 
 かくいう自分も曲の製作者側です。
 
+Pythonですが、3.8.10のため、win7までサポートします。
+
+外部ツールを使用していませんので、requirements.txtでEXE化も単体でできます。
 
 使い方と機能について：
 1. 下のレベル別譜面選択で適当に選んでもらうと、同じフォルダにあるBMSファイルが「各レベルの単語」を判断して自動で読み込んでくれます。
@@ -20,7 +23,7 @@ A tool that allows for the batch input of everything from song details to timing
 9. このプログラムは、あくまで曲情報を書き換えるだけのものであり、譜面データへは一切の手を加えません。
 10. 以上のことから、Base16、Base36、Base62の拡張定義において全てお使いいただけます。
 
-作成日2026/8/24　
-1. v1.0.0 書き込みテスト版作成
+　
+1. 初作成日：2026/8/24　v1.0.0 書き込みテスト版作成
 2. 同日　v1.1.0　仕様追加更新
 3. 同日　v1.2.2　アーティスト名で[ ]が出てしまうバグを修正して安定版が完成
