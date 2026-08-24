@@ -16,4 +16,4 @@ A tool that allows for the batch input of everything from song details to timing
 
 作成日2026/8/24　v1.0.0 書き込みテスト版作成
 同日　v1.1.0　仕様追加更新
-同日　v1.2.2　細微な調整を経て安定版が完成
+同日　v1.2.2　アーティスト名で[ ]が出てしまうバグを修正して安定版が完成
